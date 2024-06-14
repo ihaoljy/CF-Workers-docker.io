@@ -2,6 +2,8 @@
 
 这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。
 
+**教程：**[链接](https://www.youtube.com/watch?v=l2jwq9CagNQ)
+
 # 部署方式
 
 - **Workers** 部署：复制 [_worker.js](https://github.com/cmliu/CF-Workers-docker.io/blob/main/_worker.js) 代码，`保存并部署`即可
